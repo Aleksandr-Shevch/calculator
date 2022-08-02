@@ -1,5 +1,6 @@
 public class Calculator {
     public static void main(String[] args) {
-        System.out.println("Start! ");
+        workSpace scanner = new workSpace();
+        workSpace.result();
     }
 }
