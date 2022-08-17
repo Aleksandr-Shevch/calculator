@@ -32,12 +32,12 @@ public class workSpace {
                 case '/':
                     answer = num1 / num2;
                     if (num2 == 0) {
-                        System.out.println("can't divide by zero");
+                        System.out.println("Can't divide by zero");
                         break;
                     }
                     System.out.println(num1 + "/" + num2 + " = " + answer);
                 default:
-                    System.out.println("error");
+                    System.out.println("Error");
                     break;
             }
         }
